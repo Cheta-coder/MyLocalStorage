@@ -1,0 +1,36 @@
+#body{
+    background-color: linear-gradient(to right, plum, white plum);
+}
+
+form{
+    padding: 20%;
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 0;
+    column-gap: 0;
+}
+
+input{
+    background-color: #d9d9d9;
+}
+
+input[type="submit"]{
+    background-color: #a3a3a3;
+    width: 30%;
+    margin-top: 5%;
+}
+
+table{
+    border: 3px solid white;
+    background-color: #d9d9d9;
+    padding: 10%;
+}
+
+th, td{
+    border: 2px solid white;
+}
+
+th:nth-child(1), th:nth-child(3n){
+    background-color: white;
+}
+
