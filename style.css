@@ -1,36 +1,38 @@
 #body{
-    background-color: linear-gradient(to right, plum, white plum);
+    background-color:plum;
 }
 
 form{
     padding: 20%;
-    display: grid;
-    grid-template-columns: auto auto;
-    row-gap: 0;
-    column-gap: 0;
+    margin-bottom: -15%;
 }
 
 input{
+    display: block;
     background-color: #d9d9d9;
 }
 
 input[type="submit"]{
     background-color: #a3a3a3;
     width: 30%;
-    margin-top: 5%;
 }
 
 table{
-    border: 3px solid white;
-    background-color: #d9d9d9;
-    padding: 10%;
+    background-color: plum;
+    margin-top: -9%;
+    margin-left: 11%;
+    padding: 5%;
 }
 
 th, td{
-    border: 2px solid white;
+    border: 10px solid plum;
+    background-color: #d9d9d9;
 }
-
-th:nth-child(1), th:nth-child(3n){
+/* th:nth-child(1), th:nth-child(3n){
     background-color: white;
+} */
+
+#applicants{
+    margin-left: 20%;
 }
 

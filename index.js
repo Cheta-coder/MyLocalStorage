@@ -28,11 +28,11 @@ let fName = document.getElementById('fName');
 let lName = document.getElementById('lName');
 let age = document.getElementById('age');
 let submit = document.getElementById('submit');
-let table =  document.getElementById('table')
+let table =  document.getElementById('table');
 let data = {};
 let count = 0;
 
-console.log(lName)
+console.log(lName);
 
 submit.addEventListener('click', (event)=>{
     let firstName = fName.value;
@@ -45,7 +45,7 @@ submit.addEventListener('click', (event)=>{
     // data.firstName = firstName
     // data.lastName = lastName
     // data.age = years
-    console.log(data)
+    console.log(data);
 
     // Retrieve the previous count from the localStorage
     if(localStorage.getItem('count')){
@@ -73,9 +73,9 @@ let th2 = document.createElement('th');
 let th3 = document.createElement('th');
 
 // Populate the th with data
-th1.innerText = 'First Names'
-th2.innerText = 'Last Names'
-th3.innerText = 'Age'
+th1.innerText = 'First Names';
+th2.innerText = 'Last Names';
+th3.innerText = 'Age';
 
 tr1.append(th1, th2, th3);
 table.appendChild(tr1);
@@ -98,10 +98,10 @@ for(let i = 0; i < localStorage.length; i++){
     // Populate the tds with the data values
     td1.innerHTML = retrievedData.firstName;
     td2.innerHTML = retrievedData.lastName;
-    td3.innerHTML = retrievedData.age
+    td3.innerHTML = retrievedData.age;
     
-    tr2.append(td1,td2,td3)
+    tr2.append(td1,td2,td3);
     // Append the tds to the tr
     
-    table.appendChild(tr2)
+    table.appendChild(tr2);
 }
