@@ -32,8 +32,6 @@ let table =  document.getElementById('table');
 let data = {};
 let count = 0;
 
-console.log(lName);
-
 submit.addEventListener('click', (event)=>{
     let firstName = fName.value;
     let lastName = lName.value;
@@ -45,7 +43,6 @@ submit.addEventListener('click', (event)=>{
     // data.firstName = firstName
     // data.lastName = lastName
     // data.age = years
-    console.log(data);
 
     // Retrieve the previous count from the localStorage
     if(localStorage.getItem('count')){
